@@ -27,8 +27,7 @@ public class AlarmLight : MonoBehaviour
         myTras = GetComponent<Transform>();
 
 
-       Object  dsd = GetComponent<Transform>().GetComponent<Light>().
-;
+      
     }
 
     void Update()
