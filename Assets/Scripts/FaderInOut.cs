@@ -46,7 +46,6 @@ public class FaderInOut : MonoBehaviour
         {
             guiTexture.color = Color.clear;
             guiTexture.enabled = false;
-
             sceneStarting = false;
         }
     }
