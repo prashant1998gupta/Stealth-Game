@@ -1,0 +1,57 @@
+
+
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[lL]ogs/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+Corridor/Library/ShaderCache/
+Corridor/Library/metadata/
+Assets/_Scene/Test.unity
+Assets/Scripts/Test Scripts/
+Assets/_Scene/Test.unity.meta
+Assets/Materials/Test Material.meta
+Assets/Materials/Test Material/Standerd.mat
+Assets/Scripts/Test Scripts.meta
+Assets/Materials/Test Material/unlit color.mat
+Assets/Materials/Test Material/unlit color.mat.meta
+Assets/Materials/Test Material/Standerd.mat.meta
