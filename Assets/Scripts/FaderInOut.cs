@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -11,6 +9,7 @@ public class FaderInOut : MonoBehaviour
     private bool sceneStarting = true;
 
     private Image guiTexture;
+
 
     void Awake()
     {
@@ -24,8 +23,11 @@ public class FaderInOut : MonoBehaviour
         {
             StartScene();
         }
+
+        
     }
 
+    
     void FadeToClear()
     {
         guiTexture.color = Color.Lerp(guiTexture.color, Color.clear, fadeSpeed * Time.deltaTime);
