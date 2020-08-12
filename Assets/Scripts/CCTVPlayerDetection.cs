@@ -22,7 +22,7 @@ public class CCTVPlayerDetection : MonoBehaviour
             {
                 if (hit.collider.gameObject == player)
                 {
-                    lastPlayerSighting.position = player.transform.position;
+                    lastPlayerSighting.position = player.transform.position; 
                 }
             }
         }
