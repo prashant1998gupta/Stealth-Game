@@ -15,37 +15,34 @@ public class AlarmLight : MonoBehaviour
     public bool alarmOn;
 
     private float targetIntesity;
-    
-        
+
+    public  Light lighting;
+
+
+
     void Awake()
     {
-        GetComponent<Light>().intensity = 0f;
-
+        lighting = GetComponent<Light>();
+        lighting.intensity = 0f;
         targetIntesity = highIntensity;
-        Transform myTras = null;
-
-        myTras = GetComponent<Transform>();
-
-
-       Object  dsd = GetComponent<Transform>().GetComponent<Light>().
-;
     }
 
     void Update()
     {
         if (alarmOn)
         {
-            GetComponent<Light>().intensity = Mathf.Lerp(GetComponent<Light>().intensity, targetIntesity, fadeSpeed * Time.deltaTime);
+            lighting.intensity = Mathf.Lerp(lighting.intensity, targetIntesity, fadeSpeed * Time.deltaTime);
+            checkTargetIntensity();
         }
         else
         {
-            GetComponent<Light>().intensity = Mathf.Lerp(GetComponent<Light>().intensity, 0f, fadeSpeed * Time.deltaTime);
+            lighting.intensity = Mathf.Lerp(lighting.intensity, 0f, fadeSpeed * Time.deltaTime);
         }
     }
     
     void checkTargetIntensity()
     {
-        if(Mathf.Abs(targetIntesity - GetComponent<Light>().intensity) < changeMargin)
+        if(Mathf.Abs(targetIntesity - lighting.intensity) < changeMargin)
         {
             if(targetIntesity == highIntensity)
             {
