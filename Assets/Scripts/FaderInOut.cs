@@ -53,7 +53,7 @@ public class FaderInOut : MonoBehaviour
     }
 
 
-    public void Endscene()
+    public void EndScene()
     {
         guiTexture.enabled = true;
         FadeToBlack();

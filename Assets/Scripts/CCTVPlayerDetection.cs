@@ -13,6 +13,8 @@ public class CCTVPlayerDetection : MonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
+        Debug.Log($" Nmaes {collider.gameObject.name} - {gameObject.name} ");
+
         if(collider.gameObject == player)
         {
             Vector3 relPosPlayer = player.transform.position - transform.position;
@@ -22,7 +24,7 @@ public class CCTVPlayerDetection : MonoBehaviour
             {
                 if (hit.collider.gameObject == player)
                 {
-                    lastPlayerSighting.position = player.transform.position; 
+                    lastPlayerSighting.position = player.transform.position;
                 }
             }
         }
