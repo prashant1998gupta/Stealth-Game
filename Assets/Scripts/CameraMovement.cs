@@ -34,10 +34,10 @@ public class CameraMovement : MonoBehaviour
         /*Vector3 smoothPosition = Vector3.Lerp(transform.position, standardPos, smooth);
         transform.position = smoothPosition;*/
         Vector3[] checkPoint = new Vector3[5];
-        checkPoint[0] = Vector3.Lerp(standardPos, abovePos, .25f);
-        checkPoint[1] = Vector3.Lerp(standardPos, abovePos, .5f);
-        checkPoint[2] = Vector3.Lerp(standardPos, abovePos, .75f);
-        checkPoint[3] = standardPos;
+        checkPoint[0] = standardPos;
+        checkPoint[1] = Vector3.Lerp(standardPos, abovePos, .25f);
+        checkPoint[2] = Vector3.Lerp(standardPos, abovePos, .5f);
+        checkPoint[3] = Vector3.Lerp(standardPos, abovePos, .75f);
         checkPoint[4] = abovePos;
 
         for (int i = 0; i < checkPoint.Length; i++)

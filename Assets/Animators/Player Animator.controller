@@ -35,7 +35,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Base
+    m_Name: Base Layer
     m_StateMachine: {fileID: 1107574116242142724}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -522,7 +522,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
+  m_Name: Base
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102110486097854508}
@@ -535,14 +535,14 @@ AnimatorStateMachine:
     m_Position: {x: 360, y: 384, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102703944180187118}
-    m_Position: {x: 360, y: -60, z: 0}
+    m_Position: {x: 420, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1101754424963094926}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 60, y: -60, z: 0}
+  m_AnyStatePosition: {x: 120, y: 0, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

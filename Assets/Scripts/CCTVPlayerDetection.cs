@@ -13,7 +13,7 @@ public class CCTVPlayerDetection : MonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
-        Debug.Log($" Nmaes {collider.gameObject.name} - {gameObject.name} ");
+       // Debug.Log($" Nmaes {collider.gameObject.name} - {gameObject.name} ");
 
         if(collider.gameObject == player)
         {

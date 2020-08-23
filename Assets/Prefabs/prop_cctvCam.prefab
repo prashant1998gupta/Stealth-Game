@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7979133245309268270}
   - component: {fileID: 7979133245309268265}
   - component: {fileID: 7979133245309268264}
+  - component: {fileID: 2988160212191552883}
   m_Layer: 0
   m_Name: prop_cctvCam_collision
   m_TagString: Untagged
@@ -116,6 +117,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2988160212191552883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7979133245309268266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa8c8d5c362792429f9df103b2f18e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  lastPlayerSighting: {fileID: 0}
 --- !u!1 &7979133245860508773
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +305,6 @@ GameObject:
   - component: {fileID: 7979133245860210765}
   - component: {fileID: 7979133245863602285}
   - component: {fileID: 7979133245862505133}
-  - component: {fileID: 4516548109821233467}
   m_Layer: 0
   m_Name: prop_cctvCam
   m_TagString: Untagged
@@ -360,17 +374,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4516548109821233467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7979133245860508781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aa8c8d5c362792429f9df103b2f18e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  lastPlayerSighting: {fileID: 0}

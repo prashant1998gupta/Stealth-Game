@@ -22,14 +22,14 @@ public class HashKeyAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dyingState = Animator.StringToHash("Base Layer.Dying");
+        dyingState = Animator.StringToHash("Base.Dying");
         deadBool = Animator.StringToHash("Dead");
         locomotionState = Animator.StringToHash("Locomotion");
         shoutState = Animator.StringToHash("Shouting.Shout");
         speedFloat = Animator.StringToHash("Speed");
         shoutingBool = Animator.StringToHash("Shouting");
         sneakingBool = Animator.StringToHash("Sneaking");
-        playerInSightBool = Animator.StringToHash("PlayerInsight");
+        playerInSightBool = Animator.StringToHash("PlayerInSight");
         shotFloat = Animator.StringToHash("Shot");
         aimWeightFloat = Animator.StringToHash("AimWeight");
         AngularSpeedFloat = Animator.StringToHash("AngularSpeed");
