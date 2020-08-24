@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         hashId = GameObject.FindGameObjectWithTag(Tags.gameController).GetComponent<HashKeyAnimation>();
         fader = GameObject.FindGameObjectWithTag(Tags.fader).GetComponent<FaderInOut>();
-        playerSighting = GameObject.FindGameObjectWithTag(Tags.fader).GetComponent<LastPlayerSighting>();
+        playerSighting = GameObject.FindGameObjectWithTag(Tags.gameController).GetComponent<LastPlayerSighting>();
 
     }
 
